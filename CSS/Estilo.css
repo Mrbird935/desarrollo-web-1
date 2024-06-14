@@ -1,0 +1,66 @@
+body{
+    background-color: chocolate;
+}
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  chocolate;
+    margin-left:250px;
+   padding-top: 100px;
+}
+h3{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+#Logo{
+   margin: 20px 0px 0px 20px;
+    border-radius: 50px;
+    position: absolute;
+}
+header{
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.Card{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    border: 3px black solid;
+    text-align: center;
+}
+.Card:hover{
+    border: 3px #f019ec solid;
+}
+#NombreArticulo{
+    color: black;
+}
+.ImgCard{
+    height: 250px;
+    width: 300px;
+}
+
+.ContenedorP{
+    display: flex;
+    justify-content:space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.infoFooter{
+    text-align: center;
+    width: 23%;
+}
+.ContenedorFooter{
+display: flex;
+justify-content: space-around;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
